@@ -9,6 +9,18 @@ Skillbrary is an enterprise-grade, high-performance skill registry and execution
 - **Topological DAG Execution:** A built-in Decompositor ensures all tasks are automatically sorted into a forward-moving Directed Acyclic Graph (DAG) for isolated, decoupled task routing.
 - **Secure Sandbox Runtimes:** Executes tasks in natively branched workspaces with full environmental purges post-execution to prevent context cross-contamination.
 
+## Architecture
+
+```mermaid
+graph TD
+    A[MCP Client / CLI Intent] --> B(Capability Router)
+    B --> C{AST Topology Gate}
+    C -->|Valid Topology| D[Write-Ahead Log]
+    C -->|Invalid Topology| E[Fast Reject <21ms]
+    D --> F[Sandbox Runtime]
+    F --> G[Distributed Agent Execution]
+```
+
 ## Project Structure
 
 - `src/registry/wal_manager.py` - Core lock manager and WAL execution driver.
