@@ -64,7 +64,7 @@ graph TD
     A[MCP Client / CLI Intent] --> B(Capability Router)
     B --> C{AST Topology Gate}
     C -->|Valid Topology| D[Write-Ahead Log]
-    C -->|Invalid Topology| E[Fast Reject <21ms]
+    C -->|Invalid Topology| E["Fast Reject <21ms"]
     D --> F[Sandbox Runtime]
     F --> G[Distributed Agent Execution]
 ```
