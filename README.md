@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>⚙️ Skillbrary</h1>
+  <h1>⚙️ Skillbrary: Low-Latency Registry for Multi-Agent Swarms & MCP Server</h1>
   <p><strong>The Enterprise-Grade Distributed Swarm Toolkit</strong></p>
 
   <p>
