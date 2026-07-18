@@ -1,1 +1,1 @@
-print('Mock analyzer executed successfully.')
+print("Mock analyzer executed successfully.")

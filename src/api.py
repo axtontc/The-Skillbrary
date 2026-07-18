@@ -121,7 +121,7 @@ def execute_skill(payload: ExecutePayload):
             # Create a mock script for the sandbox if execution scripts directory doesn't exist
             os.makedirs(os.path.join(project_root, "scripts"), exist_ok=True)
             with open(script_path, "w") as f:
-                f.write("print('Mock analyzer executed successfully.')\n")
+                f.write('print("Mock analyzer executed successfully.")\n')
 
     result = sandbox.execute_skill(
         skill_id=payload.skill_id, script_path=script_path, args=payload.args or [payload.intent]
