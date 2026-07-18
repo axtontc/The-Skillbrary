@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Skillbrary: Low-Latency Registry and MCP Server for Multi-Agent Swarms"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "Personal Use License" }
+license = { text = "Apache-2.0" }
 authors = [
     { name = "Axton Carroll" }
 ]

@@ -8,7 +8,7 @@
 
 [![Status](https://img.shields.io/badge/Status-Stable%20v1.0-2ea043?style=for-the-badge)](https://github.com/axtontc/The-Skillbrary/releases)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![License](https://img.shields.io/badge/License-Personal_Use-purple?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)](LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/axtontc/The-Skillbrary/ci.yml?branch=main&style=for-the-badge&label=CI)](https://github.com/axtontc/The-Skillbrary/actions)
 
 </div>
@@ -177,7 +177,7 @@ Skillbrary belongs to a suite of interconnected AI agent utilities:
 
 ## 📜 License
 
-This project is licensed under the Personal Use License. See the [LICENSE](LICENSE) file for details. Copyright (c) 2026 Axton Carroll.
+This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details. Copyright (c) 2026 Axton Carroll.
 
 ---
 
